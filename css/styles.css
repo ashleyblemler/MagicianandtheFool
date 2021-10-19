@@ -153,7 +153,7 @@ html {
   justify-content: center;
   align-items: center;
   color: #fff;
-  font-family: "Baloo Da 2", serif;
+  font-family: "Cinzel Decorative", serif;
   font-size: 1.6rem;
   letter-spacing: 0.1rem;
   opacity: 0;
@@ -186,6 +186,7 @@ html {
   right: -40rem;
   background-color: white;
   transition: right .5s;
+  z-index: 1;
 }
 
 .change .sidebar {
@@ -264,4 +265,10 @@ html {
   font-size: 2rem;
   color: black;
   text-align: center;
+}
+
+.card {
+  margin: 0 auto;
+  float: none; 
+  margin-bottom: 10px;
 }
